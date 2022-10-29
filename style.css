@@ -5,9 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 /***** STYLE FOR MOBILE *****/
-body{
-    background-color: #ACACAC;
-}
+
 #container{
     background-color: #C1FFFF;
     width: 100%;
@@ -219,6 +217,9 @@ footer p{
 
 /***** STYLE FOR LARGE SCREEN *****/
 @media (min-width: 1200px){
+    body{
+    background-color: #ACACAC;
+    }
     #container{
         width: 80%;
         margin: 0 auto;
